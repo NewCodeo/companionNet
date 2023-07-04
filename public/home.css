@@ -1,0 +1,144 @@
+
+#video-grid {
+  display: none;
+
+background-color: black;
+z-index: 793523;
+  position: absolute;
+  top: 0pc;
+  left: 0pc;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.existBtn{
+  z-index: 1904793827987439;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  bottom: 10%;
+  left: 50vw;
+}
+video{
+    background: #00000097;
+    z-index: 1904325439;
+}
+#video-grid video {
+  background: #00000097;
+width: 100%;
+height: 100%;
+}
+.myVid{
+    background: #10101097;
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+  width: 25vw;
+  height: 40vh;
+}
+.myScreen{
+    background: #0b0b0b97;
+   position: absolute;
+  bottom: 0px;
+  right: 5%;
+  height: 20vw;
+  width: 40vh;
+}
+  .userPresent {
+    content: 'online user';
+    text-align: center;
+  }
+  
+  #searchUser {
+    position: absolute;
+    top: 100px;
+  }
+*{
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;
+  box-sizing: border-box;
+     
+      
+    
+}
+*::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+ 
+  .userSidebar {
+    height: 100%;
+    width: 100%;
+   background-color: bisque;
+    overflow:scroll;
+    padding: 10px;
+   
+    border-radius: 4px;
+    box-shadow: 0px 5px 10px black;
+  }
+  
+ 
+  .messages{
+ 
+    line-height: 40px;
+    height: 78%;
+    overflow: scroll;
+  }
+  .d-flex.sender {
+   
+    width: 30%;
+    background:#f8f8f8;
+    list-style: decimal;
+    overflow: scroll;
+    border: none;
+padding: 0px 20px;
+border-radius: 10px;
+font-family: cursive;
+box-shadow: 0px 5px 10px rgb(180, 171, 171);
+ font-size: 1.2em; 
+    line-height: 2.5em;
+    cursor: pointer;
+  }
+  .fileImg{
+    
+    width:15vw;
+    height: 15vh;
+    
+  }
+  .d-flex.receiver {
+    
+    width: 40%;
+    background:#67f38a;
+    list-style: decimal;
+    overflow: scroll;
+    border: none;
+padding: 0px 20px;
+border-radius: 10px;
+z-index: -1;
+font-family: cursive;
+box-shadow: 0px 5px 10px rgb(180, 171, 171);
+ font-size: 1.2em; 
+    line-height: 2.5em;
+    cursor: pointer;
+    right: -70%;
+  }
+
+  .platform {
+    overflow:scroll;
+    border: 1px solid black;
+ 
+   
+  }
+  
+  #chat_msg {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+  }
+  .files{
+    position: absolute;
+   top: 90%;
+  }
+  
