@@ -13,9 +13,9 @@ let Collection = []
 app.use(express.static('public'))
 
 
-app.get('/',(r,res)=>{
+app.get('/',(req,res)=>{
 
-  res.send(__dirname+'/home.html')
+  res.sendFile(__dirname+'/home.html')
 
 })
 io.on('connection',socket=>{
